@@ -1,0 +1,448 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "Bai Jamjuree", sans-serif;
+  position: relative;
+  background-image: url(./images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+}
+.section {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* section1 branding */
+.branding {
+  padding-top: 122px;
+}
+.logo {
+  width: 126px;
+  height: 126px;
+}
+.heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  margin: 70px 0 0;
+  padding: 0 30px;
+}
+.info-branding {
+  font-size: 15px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  margin: 23px 0 0;
+  padding: 0 13px;
+}
+.btn-section-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0 0;
+}
+.btn {
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.btn.ios {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 3px 0px 0px hsl(171deg 56% 39%),
+    0px 3px 18px 0px hsl(171deg 56% 39%);
+  width: 311px;
+  height: 56px;
+}
+.btn.mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 3px 0px 0px hsl(233deg 42% 54%),
+    0px 3px 13px 0px hsl(233deg 42% 54%);
+  margin-top: 22px;
+  width: 311px;
+  height: 56px;
+}
+/* Keep track of your snippets-section 2 */
+.section-2 {
+  padding-top: 166px;
+}
+.header {
+  font-size: 22px;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 0;
+  padding: 0 25px;
+}
+.content {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  margin: 24px 0 0;
+  padding: 0 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notebook {
+  background-image: url(./images/image-computer.png);
+  width: 312px;
+  height: 238px;
+  background-size: cover;
+  margin: 68px 0 0;
+}
+.info-type {
+  margin: 60px 0 0;
+}
+.info-type-header {
+  margin: 0;
+  font-size: 18px;
+  color: hsl(210, 10%, 33%);
+}
+.content.type {
+  padding: 0 15px;
+}
+/* Access Clipboard anywhere section 3*/
+.section-3 {
+  padding-top: 195px;
+}
+.devices {
+  width: 310px;
+  height: 180px;
+  margin-top: 65px;
+}
+/* Supercharge your workflow section 4 */
+.section-4 {
+  padding-top: 138px;
+}
+.section-4-type {
+  margin-top: 32px;
+}
+.icon {
+  margin-top: 60px;
+}
+.info-type-header.workflow {
+  margin-top: 46px;
+}
+.content-workflow {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  margin: 24px 0 0;
+  padding: 0 10px;
+}
+/* logo section-5 */
+.section-5-logo {
+  padding-top: 134px;
+}
+.logos {
+  margin-top: 66px;
+}
+.logo-google {
+  width: 140px;
+  height: 41px;
+}
+.logo-ibm {
+  width: 115px;
+  height: 42px;
+}
+.logo-microsoft {
+  width: 135px;
+  height: 28px;
+}
+.logo-hp {
+  width: 113px;
+  height: 47px;
+}
+.logo-vector {
+  width: 105px;
+  height: 25px;
+}
+/* Clipboard for iOS and Mac OS */
+.section-6 {
+  padding-top: 175px;
+}
+.content.ios-mac {
+  padding: 0 14px;
+}
+.btn-section-6 {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+/* footer */
+.footer-info {
+  margin-top: 170px;
+  background-color: hsl(201deg 11% 66% / 11%);
+  padding-top: 50px;
+}
+.footer-logo {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 13px;
+}
+
+.data {
+  text-decoration: none !important;
+  margin-top: 35px;
+  color: hsl(210, 10%, 33%);
+  font-size: 18px;
+  font-weight: 400;
+}
+.data:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+.more-than {
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  margin-top: 55px;
+  padding-bottom: 50px;
+}
+.social-icon {
+  font-size: 24px;
+  display: inline-flex;
+  margin: 0 20px;
+  color: black;
+}
+.social-icon:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+/* desktop */
+@media (min-width: 1440px) {
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    max-width: 100vw;
+    font-family: "Bai Jamjuree", sans-serif;
+    position: relative;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+  }
+  .clipboard {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+  .branding {
+    padding-top: 128px;
+  }
+  /* section 1 branding */
+  .section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heading {
+    font-size: 40px;
+    margin-top: 65px;
+  }
+  .info-branding {
+    font-size: 18px;
+    width: 650px;
+  }
+  .btn-section-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  .btn.ios {
+    width: 227px;
+    height: 56px;
+  }
+  .btn.mac {
+    margin-top: 0;
+    margin-left: 15px;
+    width: 227px;
+    height: 56px;
+  }
+  /* section 2 */
+  .section-2 {
+    padding-top: 155px;
+  }
+  .header {
+    font-size: 35px;
+  }
+  .content {
+    margin-top: 30px;
+    width: 710px;
+    font-size: 18px;
+  }
+  .notebook {
+    width: 720px;
+    height: 572px;
+    position: relative;
+    background-size: 100% 100%;
+    margin: 0 0;
+    margin-right: 82px;
+    left: -28px;
+  }
+  .content.type {
+    margin-top: 23px;
+    padding: 0;
+    width: 380px;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 85px 0 0;
+    width: 100%;
+    max-width: 1440px;
+  }
+  .info-type {
+    margin: 0 0 65px;
+  }
+  .info-type-header {
+    font-size: 20px;
+  }
+  .total-info-type {
+    text-align: left;
+  }
+  /* section 3 */
+  .section-3 {
+    padding-top: 160px;
+  }
+  .devices {
+    margin-top: 115px;
+    width: 905px;
+    height: 575px;
+  }
+  /* section 4 */
+  .section-4 {
+    padding-top: 50px;
+  }
+  .icon {
+    margin-top: 0;
+    width: 52px;
+    height: 42px;
+  }
+  .section-4-type {
+    display: flex;
+    margin-top: 72px;
+    padding: 0 150px;
+  }
+  .section-4-type-info {
+    width: 453.333px;
+    padding: 0 25px;
+  }
+  .content-info {
+    font-size: 18px;
+  }
+  .content-workflow {
+    font-size: 18px;
+    padding: 0;
+  }
+  /* section-5 logo */
+  .section-5-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding: 165px 0 0;
+  }
+  .logo-google {
+    width: 165px;
+    height: 52px;
+  }
+  .logo-ibm {
+    width: 138px;
+    height: 52px;
+  }
+  .logo-microsoft {
+    width: 160px;
+    height: 33px;
+  }
+  .logo-hp {
+    width: 135px;
+    height: 56px;
+  }
+  .logo-vector {
+    width: 125px;
+    height: 30px;
+  }
+  .logos {
+    margin: 0;
+  }
+  /* section-6 */
+  .section-6 {
+    padding-top: 170px;
+  }
+  .btn-section-6 {
+    margin: 48px 0 0;
+    display: flex;
+    flex-direction: row;
+  }
+  /* footer */
+
+  .footer-info {
+    margin-top: 150px;
+    padding-top: 0;
+    width: 100%;
+  }
+  .footer {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    padding: 45px 165px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+  }
+  .footer-logo {
+    margin: 0;
+  }
+  .data {
+    margin: 0;
+  }
+  .data-contact {
+    margin-top: 25px;
+  }
+  .data-pk {
+    margin-top: 25px;
+  }
+  .more-than.privacy-press {
+    margin-left: 98px;
+  }
+  .more-than.install-guide {
+    display: flex;
+    margin-left: 74px;
+  }
+  .more-than-data {
+    margin-left: 135px;
+    width: 618px;
+    display: flex;
+  }
+  .social {
+    width: 435px;
+    text-align: right;
+  }
+  .social-icon {
+    margin-left: 24px;
+    margin-right: 0;
+  }
+}
